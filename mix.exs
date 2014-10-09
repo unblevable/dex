@@ -3,6 +3,7 @@ defmodule Dex.Mixfile do
 
   def project do
     [app: :dex,
+     escript: [main_module: Dex.Cli],
      version: "0.0.1",
      elixir: "~> 1.0.0",
      deps: deps]
